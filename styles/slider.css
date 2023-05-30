@@ -1,0 +1,68 @@
+.image_slider{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #111111;
+}
+
+.slider-title {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Monument Extended";
+    font-size: 5vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  .slider {
+    width: 100%;
+    cursor: grab;
+  }
+  
+  .slider-wrapper {
+    white-space: nowrap;
+  }
+  
+  .slider-item {
+    display: inline-block;
+    width: 40vw;
+    padding: 3vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-item figure {
+    position: relative;
+    padding-bottom: 90%;
+    overflow: hidden;
+  }
+  
+  .slider-item figure img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20vw;
+    height: 2px;
+    margin: 2em;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .slider-progress-bar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    transform: scaleX(0);
+    transform-origin: 0% 0%;
+  }
+  

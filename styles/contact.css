@@ -1,0 +1,107 @@
+.contact-page{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    background: #111111;
+}
+
+
+
+.contact-marquee {
+    width: 1000%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 1.2em;
+  }
+  
+  .contact-marquee span {
+    font-family: "Monument Extended";
+    font-weight: 700;
+    color: #ff4c00;
+    font-size: 8em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: -10%;
+    padding-top: 1%;
+    animation: contact-marquee-animation 80s linear infinite;
+  }
+  
+  @keyframes contact-marquee-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+  
+  .col {
+    width: 50%;
+    padding: 1em 3em;
+  }
+  
+  .contact-section h3 {
+    text-transform: uppercase;
+    color: #747474;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section span {
+    text-transform: uppercase;
+    color: white
+  }
+  
+  .contact-details p {
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 0.8em;
+    color: white;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  .item {
+    padding: 4em 0 0 0;
+  }
+  
+  .contact-info {
+    display: flex;
+  }
+  
+  .address {
+    padding-left: 4em;
+  }
+  
+  
+  .row {
+    display: flex;
+    margin: 2em 0 !important;
+  }
+
+
+  @media (min-width: 900px) {
+    .contact-page{
+      height: 100%;
+    }
+  
+    .contact-section {
+      width: 100%;
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .col {
+      width: 80%;
+    }
+  }
+  
