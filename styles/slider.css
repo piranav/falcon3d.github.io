@@ -66,3 +66,8 @@
     transform-origin: 0% 0%;
   }
   
+  @media (max-width: 768px) {
+    .image_slider{
+    height: 50vh;
+  }
+}
